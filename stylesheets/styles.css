@@ -41,7 +41,6 @@ a {
 a small {
   font-size:11px;
   color:#777;
-  margin-top:-0.6em;
   display:block;
 }
 
@@ -252,4 +251,24 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.profile-avatar {
+  border-radius: 300px;
+  border: 4px solid #ccc;
+  float: left !important;
+  min-width: 75px;
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.profile-title {
+  font-weight: bold;
+  color: rgba(5, 5, 129, 0.51);
+}
+
+.profile-icon {
+  max-width: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
