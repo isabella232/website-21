@@ -25,23 +25,24 @@
 
       </header>
       <section>
+        <h2>ELK-for-PCF tile</h2>
         <h3>
-<a id="what-we-do" class="anchor" href="#what-we-do" aria-hidden="true"><span class="octicon octicon-link"></span></a>What we do</h3>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h3>
 
-<p>We build tools and provide support to help operations teams keep their Cloud&nbsp;Foundry platform and the apps on it running smoothly.</p>
+<p>The ELK-for-PCF Tile is a commercially licensed and supported extension for the Pivotal CF PaaS that installs and manages 
+a tightly interated Elastic ELK cluster that provides multi-tenanted log analysis services for both the PaaS components and the apps deployed to the PaaS</p>
 
-<p><img src="https://cloud.githubusercontent.com/assets/227505/7658399/c7763396-faee-11e4-8676-05c3f4d0e894.png" alt="Dashboard of cf-app logs"></p>
 
 <h3>
-<a id="who-we-are" class="anchor" href="#who-we-are" aria-hidden="true"><span class="octicon octicon-link"></span></a>Who we are</h3>
-
-<p><img class="profile-avatar" src="https://cloud.githubusercontent.com/assets/227505/7658732/74075f3e-faf1-11e4-9549-afb2b36f71f4.png" alt="David Laing">
-<div class="profile-title">David Laing, CEO <a href="mailto:david@stayup.io"><img class="profile-icon" src="https://cloud.githubusercontent.com/assets/227505/7659289/c85b6cfc-faf5-11e4-9b9a-ebf29ec4e6a8.png"></a></div>
-After 2 years as lead of the Logsearch.io project (ELK + BOSH); he built the logsearch-for-cloudfoundry addon to bring log analysis to CF operators and CF users. </p>
-<br clear="all">
-<p><img class="profile-avatar" src="https://cloud.githubusercontent.com/assets/227505/7658987/9515cc36-faf3-11e4-906e-a67f867c5d24.jpg" alt="Colin Humphreys">
-<div class="profile-title">Colin Humphreys, CloudCredo <a href="mailto:colin@cloudcredo.com"><img class="profile-icon" src="https://cloud.githubusercontent.com/assets/227505/7659289/c85b6cfc-faf5-11e4-9b9a-ebf29ec4e6a8.png"></a></div>
-Colin runs CloudCredo; the premier Cloud Foundry consulting company.  He is a regular speaker on PaaS-related topics, and a member of Cloud Foundry's Community Advisory Board.</p>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h3>
+Features
+      <ul>
+        <li>Single Sign On: Integration with Cloud Foundry UAA to restrict access to Kibana</li>
+        <li>Multi-tenant access: restrict access to only view logs related to apps in spaces the authenticated user is a member of</li>
+        <li>Environment Setup: Automatically configured Elastic ELK cluster with Queue to handle spikes in log load</li>
+        <li>Ingestion, parsing and enrichment of Elastic Runtime Firehose for App logs, and Elastic Runtime, Redis, RabbitMQ and MySQL syslog component logs</li>
+        <li>Curated dashboards: Comes with sample dashboards to help CF Operators and CF App owners monitor errors, performance and security</li>
+        </ul>
       </section>
       <footer>
         <p>&copy; 2014-2015 <a href="https://beta.companieshouse.gov.uk/company/09563477">STAYUP.IO LIMITED <br>UK Company No. 09563477</a></p>
